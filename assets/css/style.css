@@ -28,17 +28,30 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-@media all and (min-width:1565px)
+@media all and (min-width:1400px)
 {
   .section-title>h2{
     left: 45%;
   } 
 }
-@media all and (max-width:1565px)
+@media all and (min-width:1024px) and (max-width:1400px)
 {
   .section-title>h2{
     left: 31vw;
   } 
+}
+@media all and (min-width:800px)and (max-width:1024px)
+{
+  .section-title>h2{
+    left: 41vw;
+  } 
+}
+@media all and (max-width:800px)
+{
+  .section-title>h2{
+    left: 31vw;
+  } 
+}
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -372,7 +385,14 @@ section {
 }
 .subheading2::after{
   width: 3.6rem;
-  left: 5%;
+  left: 3.5%;
+}
+@media all and (max-width:800px)
+{
+  .subheading2::after {
+    width: 3.6rem;
+    left: 9.5%;
+}
 }
 .subheading1:after{
   width: 3.6rem;
