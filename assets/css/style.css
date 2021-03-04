@@ -85,21 +85,21 @@ h1, h2, h3, h4, h5, h6 {
 #bottomHome{
   width: 134px;
   height: 116px;
-  background-color:  rgb(250, 250, 250);
-  padding: 1.2rem 2rem;
+  background-color:  #c73636;
+  padding: 5.2vh ;
   border: transparent;
   border-radius: 20px;
 }
 #homearrow{
   width: 4rem;
   height: 4rem;
-  background-color: rgb(250, 250, 250);
-  margin: 1.6rem 2.2rem;
+  background-color: #c73636;
+  margin: 4.6rem -0.8rem;
 }
 @media all and (min-width:1200px){
   #bottomHome{
     margin-top: 15vh;
-    margin-left: 28vw;
+    margin-left: 30vw;
   }
 }
 @media all and (min-width:1023px) and (max-width:1200px){
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 @media all and (max-width:545px){
   #bottomHome{
     margin-top: 16vh;
-    margin-left: 22vw;
+    margin-left: 35vw;
   }
 }
 /*--------------------------------------------------------------
@@ -270,12 +270,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  color: #c73636;
 }
-
-.mobile-nav-toggle i {
-  color: brown;
+.color {
+color: #c73636;
 }
-
+.color1 {
+color: #fff;
+}
 .mobile-nav-active {
   overflow: hidden;
 }
